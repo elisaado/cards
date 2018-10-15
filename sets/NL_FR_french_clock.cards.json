@@ -1,0 +1,172 @@
+{
+    "name": "Frans kloktijden",
+    "description": "Hoe je kloktijden in het Frans doet",
+    "termLanguage": "NL",
+    "definitionLanguage": "FR",
+    "cards": [
+        {
+            "term": "hoe laat is het?",
+            "definition": "Quelle heure est-il?"
+        },
+        {
+            "term": "het is",
+            "definition": "Il est"
+        },
+        {
+        	"term": "om",
+        	"definition": "à"
+        },
+        {
+        	"term": "twaalf",
+        	"definition": "douze"
+        },
+        {
+            "term": "00:00",
+            "definition": "minuit"
+        },
+        {
+            "term": "01:00",
+            "definition": "une heure"
+        },
+        {
+            "term": "02:00",
+            "definition": "deux heures"
+        },
+        {
+            "term": "03:00",
+            "definition": "trois heures"
+        },
+        {
+            "term": "04:00",
+            "definition": "quatre heures"
+        },
+        {
+            "term": "05:00",
+            "definition": "cinq heures"
+        },
+        {
+            "term": "06:00",
+            "definition": "six heures"
+        },
+        {
+            "term": "07:00",
+            "definition": "sept heures"
+        },
+        {
+            "term": "08:00",
+            "definition": "huit heures"
+        },
+        {
+            "term": "09:00",
+            "definition": "neuf heures"
+        },
+        {
+            "term": "10:00",
+            "definition": "dix heures"
+        },
+        {
+            "term": "11:00",
+            "definition": "onze heures"
+        },
+        {
+            "term": "12:00",
+            "definition": "midi"
+        },
+        {
+            "term": "13:00",
+            "definition": "treize heures"
+        },
+        {
+            "term": "14:00",
+            "definition": "quatorze heures"
+        },
+        {
+            "term": "15:00",
+            "definition": "quinze heures"
+        },
+        {
+            "term": "16:00",
+            "definition": "seize heures"
+        },
+        {
+            "term": "17:00",
+            "definition": "dix-sept heures"
+        },
+        {
+            "term": "18:00",
+            "definition": "dix-huit heures"
+        },
+        {
+            "term": "19:00",
+            "definition": "dix-neuf heures"
+        },
+        {
+            "term": "20:00",
+            "definition": "vingt heures"
+        },
+        {
+            "term": "21:00",
+            "definition": "vingt-et-un heures"
+        },
+        {
+            "term": "22:00",
+            "definition": "vingt-deux heures"
+        },
+        {
+            "term": "23:00",
+            "definition": "vingt-trois heures"
+        },
+        {
+            "term": "00:30",
+            "definition": "minuit et demie"
+        },
+        {
+            "term": "12:30",
+            "definition": "midi et demie"
+        },
+        {
+            "term": "13:05",
+            "definition": "treize heures cinq"
+        },
+        {
+            "term": "14:10",
+            "definition": "quatorze heures dix"
+        },
+        {
+            "term": "15:15",
+            "definition": "quinze heures et quart"
+        },
+        {
+            "term": "16:30",
+            "definition": "seize heures et demie"
+        },
+        {
+            "term": "17:45",
+            "definition": "dix-huit heures moins le quart"
+        },
+        {
+            "term": "18:35",
+            "definition": "dix-neuf heures moins vingt-cinq"
+        },
+        {
+            "term": "19:40",
+            "definition": "vingt heures moins vingt"
+        },
+        {
+            "term": "20:50",
+            "definition": "vingt-et-un heures moins dix"
+        },
+        {
+            "term": "21:55",
+            "definition": "vingt-deux heures moins cinq"
+        },
+        {
+            "term": "22:20",
+            "definition": "vingt-deux heures et vingt"
+        },
+        {
+            "term": "23:25",
+            "definition": "vingt-trois heures et vingt-cinq"
+        }
+    ]
+}
