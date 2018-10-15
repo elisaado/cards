@@ -33,6 +33,10 @@ func StartSession() {
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Print("< ")
 		text, _ := reader.ReadString('\n')
+		if len(text) == 0 { // ^D makes it have no \n and thus length 0
+			fmt.Println()
+		}
+
 		text = strings.TrimSpace(text)
 
 		if strings.ToLower(text) == strings.ToLower(card.Definition) {
@@ -40,6 +44,7 @@ func StartSession() {
 			fmt.Println(Green("✓ Correct!").Bold())
 		} else {
 			fmt.Println(Red("✕ Incorrect").Bold())
+			fmt.Println(Red("The correct answer was"), Green(card.Definition).Bold())
 		}
 
 		fmt.Println()
