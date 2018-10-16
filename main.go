@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 
 	. "github.com/logrusorgru/aurora"
@@ -29,6 +30,9 @@ func StartSession() {
 	cardsLeft := Shuffle(s.Cards)
 
 	for _, card := range cardsLeft {
+		// Show progress
+		fmt.Println(Sprintf(Cyan("Card %s out of %s"), Bold(strconv.Itoa(len(s.Cards))), Bold(strconv.Itoa(len(cardsLeft)))))
+
 		fmt.Println(">", Magenta(card.Term).Bold())
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Print("< ")
